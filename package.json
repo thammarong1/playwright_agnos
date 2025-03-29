@@ -1,0 +1,29 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "playwrightTest",
+  "main": "index.js",
+  "scripts": {
+    "sit:runUI": "ENV=sit npx playwright test src/tests --ui",
+    "sit:Headed": "ENV=sit npx playwright test src/tests --headed",
+    "sit:Debug": "ENV=sit npx playwright test src/tests --debug",
+    "--------": "------------------- run ทั้งหมดของ project ----------------",
+    "sit:ui": "ENV=sit npx playwright test --project='abacus_digital'",
+    "sit_agnos": "ENV=sit npx playwright test --project='UI_BOF'",
+    "---------": "---------------------------------------------------",
+    "sit": "ENV=sit npx playwright test src/tests/UI_BOF/login.spec.ts --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}

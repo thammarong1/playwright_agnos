@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",                 // ใช้ ES Modules
+    "target": "ESNext",                 // ใช้ ESNext สำหรับ Target
+    "moduleResolution": "node",         // เปลี่ยนเป็น 'node'
+    "resolveJsonModule": true,          // เปิดใช้งานการ import JSON
+    "esModuleInterop": true,            // เปิดใช้งาน ES Module Interoperability
+    "strict": true                      // (เลือกเพิ่ม) ใช้ Strict Mode
+  }
+}
